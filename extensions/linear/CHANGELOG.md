@@ -1,5 +1,9 @@
 # Linear Changelog
 
+## [Add "Break Issue Into Sub-Issues" action] - 2023-03-16
+
+Thanks to AI, the Linear extension has a new issue action: `Break Issue Into Sub-Issues`. It takes the issue title and description as context and generates actionable sub-issues that you can choose to create or not.
+
 ## [Add multiple attachments when creating an issue] - 2023-02-28
 
 - Add support for multiple attachments in the `Create Issue` command

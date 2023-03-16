@@ -215,12 +215,12 @@
       "required": false
     },
     {
-        "name": "limit",
-        "title": "API Issue Limit",
-        "description": "The maximum number of issues to fetch from the Linear API at once. Be careful when changing this, as too large a number can cause you to exceed your API rate limit and/or cause heap memory errors.",
-        "type": "textfield",
-        "default": "50",
-        "required": false
+      "name": "limit",
+      "title": "API Issue Limit",
+      "description": "The maximum number of issues to fetch from the Linear API at once. Be careful when changing this, as too large a number can cause you to exceed your API rate limit and/or cause heap memory errors.",
+      "type": "textfield",
+      "default": "50",
+      "required": false
     }
   ],
   "dependencies": {
@@ -230,6 +230,7 @@
     "date-fns": "^2.28.0",
     "file-type": "^18.2.0",
     "lodash": "^4.17.21",
+    "nanoid": "^4.0.1",
     "node-emoji": "^1.11.0",
     "remove-markdown": "^0.5.0"
   },
